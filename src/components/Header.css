@@ -1,0 +1,26 @@
+.headerLP {
+  background-color: rgba(159, 252, 253, 1);
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button-Sign-LogH {
+  margin: 10px;
+  font-size: 0.8em;
+  background-color: rgba(0, 195, 215, 1);
+  border: none;
+}
+
+.imgLogo {
+  max-width: 100%;
+  height: 100%;
+}
+
+.logoContainer {
+  width: 120px;
+}
+
+.button-Sign-LogH {
+}

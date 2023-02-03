@@ -1,0 +1,91 @@
+
+.lolo{
+    display: flex;
+    justify-content: center;
+   
+    
+    
+    
+}
+.ProgrammeName {
+  margin-top: 15px;
+  text-align: center;
+  margin-bottom: 30px;
+  align-items: center;
+}
+
+.programTP :hover {
+  box-shadow: 0 14px 28px rgba(153, 153, 153, 0.303),
+    0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+img {
+  width: 300px;
+  height: 350px;
+}
+
+.programTP {
+  padding: 10px;
+  margin: auto;
+  width: 300px;
+  height: 500px;
+  perspective: 1000px;
+  text-align: center;
+}
+
+.programTP-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 1.2s;
+  transform-style: preserve-3d;
+}
+
+.programTP:hover .programTP-inner {
+  transform: rotateY(180deg);
+}
+
+.programTP-front,
+.programTP-back {
+  height: 100%;
+  width: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-radius: 20px;
+}
+
+
+
+
+.programTP-front {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.programTP-back {
+  transform: rotateY(180deg);
+}
+
+.programTP-back  {
+  width: 280px;
+  height: 180px;
+  margin: 0 auto;
+  border-radius: 20px;
+  
+  
+}
+
+.programTP-front {
+  transition: opacity 0.6s;
+}
+
+.programTP:hover .programTP-front {
+  opacity: 0;
+}
+
+.programTP.light {
+  background: white;
+}

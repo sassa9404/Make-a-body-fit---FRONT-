@@ -1,0 +1,47 @@
+.navbar-mainNV {
+  padding: 0;
+  position: fixed;
+  align-items: center;
+}
+
+.nav-link-containerNV {
+  width: 100%;
+  text-align: center;
+  
+}
+
+.logoNV {
+  width: 2em;
+  padding: 8px;
+  display: none;
+}
+
+.boxiconNV {
+  width: 20%;
+  font-size: 2.2em;
+}
+
+.iconNV:hover {
+  color: rgb(76, 74, 74);
+}
+
+@media (min-width: 768px) {
+  .navbar-mainNV {
+    justify-content: space-between;
+    position:initial;
+    align-items: center;
+  }
+  .nav-link-containerNV {
+    background: white;
+    width: auto;
+  }
+  .boxiconNV {
+    padding: 0 30px;
+    
+  }
+  .logoNV  {
+    display: block;
+    width: 25em;
+    height: auto;
+  }
+}

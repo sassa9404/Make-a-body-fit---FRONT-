@@ -1,0 +1,19 @@
+.connexion-container {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+
+.button-signin:hover,
+.button-signin:focus .button-signin:active {
+  background-color: blue !important;
+}
+
+
+.logoContainerC{
+  width: 300px;
+ 
+}
